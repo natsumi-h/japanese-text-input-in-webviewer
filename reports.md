@@ -72,12 +72,17 @@ In the DOCX Editor, when a table row or cell is selected and the user then types
 4. Type text <!-- e.g. "abc" / Japanese "日本語" via IME -->.
 
 ### Expected behavior
+In the same way as Microsoft Word.
 
-<!-- e.g. The selected content is replaced by the typed text, in the same way as Microsoft Word. -->
+https://github.com/user-attachments/assets/b01312df-80f5-4f7a-a21c-c8e06868ccdd
+
 
 ### Actual behavior
 
-<!-- e.g. Only the first character is input / text is inserted into a different cell / characters are duplicated -->
+Unexpected characters are shown in DOCX Editor.
+
+https://github.com/user-attachments/assets/fdb37c58-e4cc-4ca3-a9b5-28529e340c91
+
 
 
 ---
@@ -100,11 +105,21 @@ Unlike the DOCX Editor, which handles IME input when `enableCompositionInput: tr
 
 ### Expected behavior
 
-Each character being typed (the IME composition text, e.g. `ひ` → `ひら` → `ひらがな`) appears immediately at the cursor position, with the standard composition underline, as in other applications.
+Each character being typed (the IME composition text, e.g. `ひ` → `ひら` → `ひらがな`) appears immediately at the cursor position, with the standard composition underline, as in other applications commonly available such as email software.
+
+
+
+https://github.com/user-attachments/assets/780c1d1c-8472-40ca-87e7-10738413aa2d
+
+
 
 ### Actual behavior
 
 The characters being typed do not appear immediately.
+
+
+
+https://github.com/user-attachments/assets/40603a4b-a9c1-4eae-a17a-ce0e46083cf3
 
 
 
