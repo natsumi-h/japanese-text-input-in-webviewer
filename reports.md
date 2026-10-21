@@ -64,8 +64,6 @@ WebViewer(
 
 In the DOCX Editor, when a table row or cell is selected and the user then types text, the text is not input correctly.
 
-This issue was originally reported by a customer (support ticket [#124605](https://support.apryse.com/support/tickets/124605), "Incorrect text input after row/cell selection"). Support stated it was fixed in 12.0.0, but the customer reported that it still occurs after updating, and it was reproduced on 12.2.1.
-
 ### Steps to reproduce
 
 1. Load a `.docx` file that contains a table in WebViewer with `enableOfficeEditing: true`.
